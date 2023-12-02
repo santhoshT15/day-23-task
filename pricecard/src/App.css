@@ -1,0 +1,137 @@
+body{
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    font-family:Oxygen, sans-serif;
+    margin: 2rem;
+  }
+  
+  .main{
+    display:flex;
+    width:100%; 
+    justify-content: center;
+  }
+  
+  .card{
+    background-color: white;
+    border-radius: 20px;
+    /* min-width: 360px; */
+    margin:40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction:column;
+    cursor: pointer;
+    min-width: 25em;
+      max-width: 31.25em;
+  }
+  
+  .header{
+    text-align: center;
+    padding:20px;
+  }
+  
+  
+  .cPrice{
+    font-size: 3rem;
+  }
+  
+  .cTitle {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    opacity: .5;
+    /* font-weight: bold; */
+  }
+  
+  .card_price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  hr{
+    margin: 0px 30px 0px 30px;
+  }
+  
+  .cDescription ul li{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .checked::before{
+    content: '✓';
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .cDescription .unchecked::before{
+    content: '⨯';
+    font-weight: bold;
+    margin-right: 10px;
+    opacity: 0.7;
+  }
+  
+  ul{
+  list-style-type: none;
+  }
+  
+  .cDescription .unchecked{
+    opacity: 0.7;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+  }
+  
+  .btn{
+    background-color: #007bff;
+    color:white;
+    width: 80%;
+    font-size: 80%;
+    border-radius: 5rem;
+    border: 0px solid white;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  .card:hover .btn {
+    opacity: 1;
+  }
+  /* @media (max-width: 1250px) {
+  
+    .wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card{
+      min-width: 400px;
+      max-width: 500px;
+    }
+  
+   
+  }
+  
+  @media (min-width: 1250px) {
+  
+    .card{
+      width:22%;
+      min-width:360px;
+    }
+  
+    .card:hover {
+      margin-top: 20px;
+      margin-bottom: 60px;
+      transition: all 0.4s;
+    }
+  
+    .card:hover .card_btn {
+      opacity: 1;
+    }
+  } */
